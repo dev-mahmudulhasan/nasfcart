@@ -30,12 +30,6 @@ class _WebViewPageState extends State<WebViewPage> {
   bool _isLoading = true;
 
   @override
-  void initState() {
-    super.initState();
-    // Don't remove splash immediately
-  }
-
-  @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
